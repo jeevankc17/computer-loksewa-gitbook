@@ -2,8 +2,6 @@
 
 ***
 
-## Section A
-
 ### 1. Digital Design and Computer Architecture
 
 #### 1.1 Digital Design
@@ -51,8 +49,6 @@
 
 ***
 
-## Section B
-
 ### 4. Structured and Object-Oriented Programming
 
 * **4.1 Concept of Procedural Programming, Structural Programming, Object-Oriented Programming**
@@ -92,10 +88,6 @@
 
 ***
 
-## Section C
-
-***
-
 ### 7. Multimedia System
 
 * **7.1 Introduction:** Global Structure of Multimedia; Medium; Multimedia System and Properties
@@ -130,11 +122,7 @@
 
 ***
 
-# Section D: Theory of Computation, Artificial Intelligence, and Advanced Topics in IT (20 Marks)
-
-***
-
-## 10. Theory of Computation
+### 10. Theory of Computation
 
 * **10.1 DFA and NDFA, Regular Expressions, Regular Grammars**
 * **10.2 CFGs, Parsing and Ambiguity, Pushdown Automata, NPDAs & CFGs**
@@ -145,7 +133,7 @@
 
 ***
 
-## 11. Artificial Intelligence
+### 11. Artificial Intelligence
 
 * **11.1 Search:**
   * **Uninformed Search Techniques:** Depth First Search, Breadth First Search, Depth Limit Search, and Search Strategy Comparison
@@ -166,7 +154,7 @@
 
 ***
 
-## 12. Advanced Topics in IT
+### 12. Advanced Topics in IT
 
 * **12.1 Parallel and Distributed Computing**
 * **12.2 High-Speed Networks**
