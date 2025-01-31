@@ -16,13 +16,18 @@
 **Paper II: Advanced Technical Subjects & Applications**
 
 * **Section A (Core Technical Subjects - 25%):**
-  * Focuses on **programming (structured and object-oriented), data structures, and algorithm design**.
-  * Explores **software engineering principles, database management systems, and operating systems**.
-* **Section B (Advanced Topics - 25%):**
-  * Covers **artificial intelligence, theory of computation, compiler design, and computer graphics**.
-  * Introduces **emerging technologies** like cryptography, neural networks, distributed systems, and embedded systems.
-* **Section C (Practical Applications - 30%):**
-  * Includes **technical writing** (e.g., proposals, essays) and **case studies** for analyzing and designing software systems.
+  * Focuses on **computer networks** (protocols, layers, routing, TCP/IP, etc.), **computer architecture** (microprocessors, memory systems, I/O organization), **digital design** (logic circuits, sequential logic, arithmetic circuits), and **basic electrical & electronics** (circuit theory, semiconductors, amplifiers).
+  * Introduces **electronic communication systems** (modulation, error detection, SNR, BER).
+* **Section B (Programming & Software Engineering - 25%):**
+  * Covers **structured and object-oriented programming** (data types, control structures, classes, inheritance, polymorphism).
+  * Explores **data structures** (linear structures, trees, graphs, sorting, hashing) and **algorithm design techniques** (greedy methods, dynamic programming, recursion).
+  * Includes **software engineering principles** (lifecycle models, project management, requirements analysis, design, implementation, maintenance).
+  * Discusses **database management systems** (relational model, SQL, transactions, indexing, distributed databases) and **operating systems** (processes, memory management, file systems, security).
+* **Section C (Advanced Computing Topics - 20%):**
+  * Focuses on **artificial intelligence** (search, NLP, learning, planning, robotics) and **theory of computation** (languages, automata, Turing machines, complexity theory).
+  * Covers **compiler design** (lexical analysis, parsing, code generation, optimization) and **computer graphics** (2D/3D transformations, rendering, shading).
+  * Introduces **emerging technologies** (neural networks, cryptography, embedded systems, e-commerce, GIS).
+* **Section D (Practical Applications - 30%):**
+  * Includes **technical writing** (proposals, essays, critiques) and **case studies** (analysis and design of software systems, integrating knowledge from software engineering, databases, and operating systems).
 
 {% file src=".gitbook/assets/Computer Engineer 2nd Paper.pdf" %}
-
