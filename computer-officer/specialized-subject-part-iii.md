@@ -1,6 +1,6 @@
 # Specialized Subject (Part III)
 
-### **Section A - 50%**
+## **Section A - 50%**
 
 ### **1. Software Development Life Cycle (SDLC)**
 
@@ -51,7 +51,7 @@
 * 5.4 Mobile App Deployment
 * 5.5 Mobile App Security
 
-### **Section B - 50%**
+## **Section B - 50%**
 
 ### **6. Advanced Algorithms and Data Structures**
 
