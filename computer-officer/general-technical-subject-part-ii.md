@@ -2,7 +2,7 @@
 
 ---
 
-### Section A - 34%
+## Section A - 34%
 
 ### 1. Computer Networks
 - **1.1 Protocol stack, switching**
@@ -55,7 +55,7 @@
 
 ---
 
-### Section B - 36%
+## Section B - 36%
 
 ### 6. Structured and Object-Oriented Programming
 - **6.1 Data Types, ADT**
