@@ -1,194 +1,184 @@
-# Technical Subject(Paper II)
+# Computer Programmer 2nd Paper
 
 ***
 
-## Section A - 25%
+## Section A
 
-### 1. Computer Networks
+### 1. Digital Design and Computer Architecture
 
-* **1.1 Protocol stack, switching**
-* **1.2 Link Layer:** services, error detection and correction, multiple access protocols, LAN addressing and ARP (Address Resolution Protocol), Ethernet, CSMA/CD multiple access protocol, Hubs, Bridges, and Switches, Wireless LANs, PPP (Point to Point Protocol), Wide area protocols
-* **1.3 Network Layer:** services, datagram and virtual circuits, routing principles and algorithms, Internet Protocol (IP), IP addressing, IP transport, fragmentation and assembly, ICMP (Internet Control Message Protocol), routing on the internet, RIP (Routing Information Protocol), OSPF (Open Shortest Path First), router internals, IPv6
-* **1.4 Transport Layer:** principles, multiplexing and demultiplexing, UDP, TCP, flow control, principles of congestion control, TCP congestion control
-* **1.5 Application Layer:** Web and Web caching, FTP (File Transfer Protocol), Electronic mail, DNS (Domain Name Service), socket programming
-* **1.6 Distributed system, Clusters**
+#### 1.1 Digital Design
+* **1.1.1 Digital and Analog Systems**
+* **1.1.2 Number Systems**
+* **1.1.3 Logic Elements**
+* **1.1.4 Combinational Logic Circuits**
+* **1.1.5 Sequential Logic**
+* **1.1.6 Arithmetic Circuits**
+* **1.1.7 MSI Logic Circuits**
+* **1.1.8 Counters and Registers**
+* **1.1.9 IC Logic Families**
+* **1.1.10 Interfacing with Analog Devices**
+* **1.1.11 Memory Devices**
 
-### 2. Computer Architecture & Organization and Micro-processors
-
-* **2.1 Basic Structures:** sequential circuits, design procedure, state table and state diagram, von Neumann / Harvard architecture, RISC/CISC architecture
-* **2.2 Addressing Methods and Programs:** representation of data, arithmetic operations, basic operational concepts, bus structures, instruction cycle and excitation cycle
-* **2.3 Processing Unit:** instruction formats, arithmetic and logical instruction, addressing modes
-* **2.4 Input-Output Organization:** I/O programming, memory mapped I/O, basic interrupt system, DMA
-* **2.5 Arithmetic**
-* **2.6 Memory Systems**
-* **2.7 808X and Intel microprocessors:** programming and interfacing
-
-### 3. Digital Design
-
-* **3.1 Digital and Analog Systems, Number Systems**
-* **3.2 Logic Elements**
-* **3.3 Combinational Logic Circuits**
-* **3.4 Sequential Logic**
-* **3.5 Arithmetic Circuits**
-* **3.6 MSI Logic Circuits**
-* **3.7 Counters and Registers**
-* **3.8 IC Logic Families**
-* **3.9 Interfacing with Analog Devices**
-* **3.10 Memory Devices**
-
-### 4. Basic Electrical & Electronics
-
-* **4.1 Electrical:**
-  * 4.1.1 Basic Circuit Theory
-  * 4.1.2 AC Circuit Fundamentals
-  * 4.1.3 Magnetic Circuits and Transformers
-  * 4.1.4 Transient Analysis, Filters
-* **4.2 Electronics:**
-  * 4.2.1 Semiconductors, Diodes and Diode Circuits, Transistors
-  * 4.2.2 Transistor Modeling
-  * 4.2.3 Biasing and Amplification
-  * 4.2.4 Small Signal Amplifiers and Frequency Response
-  * 4.2.5 Large Signal Amplifiers, Feedback Amplifiers and Oscillators
-  * 4.2.6 Operational Amplifiers
-
-### 5. Principles of Electronic Communications
-
-* **5.1 Block Diagram of Analog/Digital Communication System**
-* **5.2 Analog and Digital Modulation Techniques**
-* **5.3 Fundamentals of Error Detection and Correction**
-* **5.4 Performance Evaluation of Analog and Digital Communication Systems:** SNR and BER
+#### 1.2 Computer Architecture
+* **1.2.1 Basic Structures:** Sequential Circuits, Design Procedure, State Table and State Diagram, Von Neumann / Harvard Architecture, RISC/CISC Architecture
+* **1.2.2 Addressing Methods and Programs:** Representation of Data, Arithmetic Operations, Basic Operational Concepts, Bus Structures, Instruction Cycle and Excitation Cycle
+* **1.2.3 Processing Unit:** Instruction Formats, Arithmetic and Logical Instruction
+* **1.2.4 Addressing Modes**
+* **1.2.5 Input Output Organization:** I/O Programming, Memory Mapped I/O, Basic Interrupt System, Direct Memory Access (DMA)
+* **1.2.6 Arithmetic Operations**
+* **1.2.7 Memory Systems**
 
 ***
 
-## Section B - 25%
+### 2. Operating System
 
-### 6. Structured and Object-Oriented Programming
-
-* **6.1 Data Types, ADT**
-* **6.2 Operators, Variables and Assignments, Control Structures**
-* **6.3 Procedure/Function**
-* **6.4 Class Definitions, Encapsulation, Inheritance, Object Composition, Polymorphism**
-* **6.5 Pattern and Framework**
-
-### 7. Data Structures
-
-* **7.1 General Concepts:** Abstract Data Type, Time and Space Analysis of Algorithms, Big Oh and Theta Notations, Average, Best and Worst Case Analysis
-* **7.2 Linear Data Structures**
-* **7.3 Trees:** General and Binary Trees, Representations and Traversals, Binary Search Trees, Balancing Trees, AVL Trees, 2-3 Trees, Red-Black Trees, Self-Adjusting Trees, Splay Trees
-* **7.4 Algorithm Design Techniques:** Greedy Methods, Priority Queue Search, Exhaustive Search, Divide and Conquer, Dynamic Programming, Recursion
-* **7.5 Hashing**
-* **7.6 Graphs and Digraphs**
-* **7.7 Sorting**
-
-### 8. Software Engineering Principles (System Analysis & Design)
-
-* **8.1 Software Process:** The Software Lifecycle Models, Risk-Driven Approaches
-* **8.2 Software Project Management:** Relationship to Lifecycle, Project Planning, Project Control, Project Organization, Risk Management, Cost Models, Configuration Management, Version Control, Quality Assurance, Metrics
-* **8.3 Software Requirements:** Requirements Analysis, Requirements Solicitation, Analysis Tools, Requirements Definition, Requirements Specification, Static and Dynamic Specifications, Requirements Review
-* **8.4 Software Design:** Design for Reuse, Design for Change, Design Notations, Design Evaluation and Validation
-* **8.5 Implementation:** Programming Standards and Procedures, Modularity, Data Abstraction, Static Analysis, Unit Testing, Integration Testing, Regression Testing, Tools for Testing, Fault Tolerance
-* **8.6 Maintenance:** The Maintenance Problem, The Nature of Maintenance, Planning for Maintenance
-* **8.7 SE Issues:** Formal Methods, Tools and Environments for Software Engineering, Role of Programming Paradigm, Process Maturity and Improvement, ISO Standards, SEI-CMM, CASE Tools
-
-### 9. Database Management System
-
-* **9.1 Introduction:** The Relational Model, ER Model, SQL, Functional Dependency and Relational Database Design, File Structure
-* **9.2 Transaction Management and Concurrency Control:** Concurrent Execution of User Programs, Transactions, Concurrency Control Techniques
-* **9.3 Crash Recovery:** Types of Failure, Recovery Techniques
-* **9.4 Query Processing and Optimization**
-* **9.5 Indexing:** Hash-Based Indexing, Tree-Based Indexing
-* **9.6 Distributed Database Systems and Object-Oriented Database System**
-* **9.7 Data Mining and Data Warehousing**
-* **9.8 Security Management System**
-
-### 10. Operating System
-
-* **10.1 Processes and Threads:** Symmetric Multiprocessing, Micro-Kernels, Concurrency, Mutual Exclusion and Synchronization, Deadlock
-* **10.2 Scheduling**
-* **10.3 Memory Management**
-* **10.4 Input-Output and Files:** I/O Devices and Its Organization, Principles of I/O Software and Hardware, Disks, Files and Directories Organization, File System Implementation
-* **10.5 Distributed Systems:** Distributed Message Passing, RPC, Client/Server Computing, Clusters
-* **10.6 Security:** Authentication and Access Authorization, System Flaws and Attacks, Trusted System
+* **2.1 Processes and Threads:** Symmetric Multiprocessing, Micro-kernels, Concurrency, Mutual Exclusion and Synchronization, Deadlock
+* **2.2 Scheduling**
+* **2.3 Memory Management**
+* **2.4 Input Output and Files:** I/O Devices and its Organization, Principles of I/O Software and Hardware, Disks, Files and Directories Organization, File System Implementation
+* **2.5 Distributed Systems:** Distributed Message Passing, RPC, Client/Server Computing, Clusters
+* **2.6 Security:** Authentication and Access Authorization, System Flaws and Attacks, Trusted System
 
 ***
 
-## Section C - 20%
+### 3. Computer Networks
 
-### 11. Artificial Intelligence
-
-* **11.1 Search**
-* **11.2 Natural Language Processing**
-* **11.3 Game Playing**
-* **11.4 Learning**
-* **11.5 Automated Reasoning**
-* **11.6 Planning**
-* **11.7 Vision and Robotics**
-
-### 12. Theory of Computation
-
-* **12.1 BNF, Languages, Grammars**
-* **12.2 DFA and NDFA, Regular Expressions, Regular Grammars**
-* **12.3 Closure, Homomorphism**
-* **12.4 Pigeonhole Principle, Pumping Lemma**
-* **12.5 CFGs, Parsing and Ambiguity, Pushdown Automata, NPDAs & CFGs**
-* **12.6 Pumping Lemma**
-* **12.7 Turing Machines**
-* **12.8 Recursively Enumerable Languages, Unrestricted Grammars**
-* **12.9 The Chomsky Hierarchy, Undecidable Problems, Church's Thesis**
-* **12.10 Complexity Theory, P and NP**
-
-### 13. Compiler Design
-
-* **13.1 The Structure of a Compiler**
-* **13.2 Lexical Analyzer**
-* **13.3 Top-Down Parsing/Bottom-Up Parsing**
-* **13.4 Syntax-Directed Translation**
-* **13.5 Types and Type Checking**
-* **13.6 Run-Time Storage Administration**
-* **13.7 Intermediate Code Generation**
-* **13.8 Data-Flow Analysis and Code Optimizations**
-* **13.9 Architecture and Recent Development on Compilers**
-
-### 14. Computer Graphics
-
-* **14.1 Graphics Concepts**
-* **14.2 Input Devices and Techniques**
-* **14.3 Basic Raster Graphics Algorithms and Primitives**
-* **14.4 Scan Conversion**
-* **14.5 Graphics Hardware**
-* **14.6 2D Geometrical Transformations and Viewing**
-* **14.7 3D Geometry and Viewing**
-* **14.8 Hierarchical Modeling**
-* **14.9 Projections**
-* **14.10 Hidden Surface Removal**
-* **14.11 Shading and Rendering**
-
-### 15. Emerging Technology and Electives
-
-* **15.1 Modeling and Simulation**
-* **15.2 Parallel and Distributed Computing**
-* **15.3 High-Speed Networks**
-* **15.4 Artificial Neural Network and Computer Vision**
-* **15.5 Adaptive Web Technology**
-* **15.6 Software Architecture**
-* **15.7 Distributed Object Technology (ORB, DCOM)**
-* **15.8 Speech Signal Processing**
-* **15.9 Cryptography and Network Security**
-* **15.10 E-Commerce**
-* **15.11 Software Project Management**
-* **15.12 Embedded Systems**
-* **15.13 Image Processing**
-* **15.14 Multimedia**
-* **15.15 Expert System**
-* **15.16 GIS/Remote Sensing/GPS**
+* **3.1 Protocol Stack, OSI and TCP/IP Models**
+* **3.2 Link Layer:** Services, Error Detection and Correction, Multiple Access Protocols, LAN Addressing and ARP (Address Resolution Protocol), Ethernet, CSMA/CD Multiple Access Protocol, Hubs, Bridges, and Switches, Wireless LANs, PPP (Point to Point Protocol), Wide Area Protocols
+* **3.3 Network Layer:** Services, Datagram and Virtual Circuits, Routing Principles and Algorithms, Internet Protocol (IP), IP Addressing, IP Transport, Fragmentation and Assembly, ICMP (Internet Control Message Protocol), Routing on the Internet, RIP (Routing Information Protocol), OSPF (Open Shortest Path First), Router Internals, IPv6
+* **3.4 Transport Layer:** Principles, Multiplexing and Demultiplexing, UDP, TCP, Flow Control, Principles of Congestion Control, TCP Congestion Control
+* **3.5 Application Layer:** Web and Web Caching, FTP (File Transfer Protocol), Electronic Mail, DNS (Domain Name Service), Socket Programming
 
 ***
 
-## Section D - 30%
+## Section B
 
-### 16. Technical Writing and Case Study
+### 4. Structured and Object-Oriented Programming
 
-* **16.1 Technical Writing (1 question Carrying 10 marks):**
-  * This section may ask the examinee to write a technical proposal on a given specification, essay, views/critics, etc. The topic must be related to computer technology or related matters, and the examinee should be encouraged to put their own views and reasoning rather than facts/information.
-* **16.2 Case Study (1 question Carrying 20 marks):**
-  * This section is dedicated to the analysis and design of a software system. The examinee should be given a scenario of an existing system and asked to analyze and design it following one particular paradigm. This section should include various domains of knowledge in one platform (e.g., a case study may incorporate questions from Software Engineering, Database Management, and Operating System domains).
+* **4.1 Concept of Procedural Programming, Structural Programming, Object-Oriented Programming**
+* **4.2 Data Types, Abstract Data Types (ADT)**
+* **4.3 Operators, Variables, and Assignments**
+* **4.4 Control Structures**
+* **4.5 Procedure/Function**
+* **4.6 Class Definitions, Encapsulation, Inheritance, Object Composition, Polymorphism**
+* **4.7 Concept of C Programming, C++ Programming**
+
+***
+
+### 5. Database Management System
+
+* **5.1 The Relational Model, ER Model**
+* **5.2 Structured Query Language (SQL)**
+* **5.3 Functional Dependency, Normalization, and Relational Database Design**
+* **5.4 Transaction Management and Concurrency Control:** Concurrent Execution of User Programs, Transactions, Concurrency Control Techniques
+* **5.5 Crash Recovery:** Types of Failure, Recovery Techniques
+* **5.6 Query Processing and Optimization**
+* **5.7 Indexing:** Hash-Based Indexing, Tree-Based Indexing
+* **5.8 Distributed Database Systems and Object-Oriented Database System**
+* **5.9 Data Mining and Data Warehousing**
+* **5.10 Database Security**
+
+***
+
+### 6. Software Engineering
+
+* **6.1 Software Process:** The Software Lifecycle Models, Risk-Driven Approaches
+* **6.2 Software Project Management:** Relationship to Lifecycle, Project Planning, Project Control, Project Organization, Risk Management, Cost Models, Configuration Management, Version Control, Quality Assurance, Metrics
+* **6.3 Software Requirements:** Requirements Analysis, Requirements Solicitation, Analysis Tools, Requirements Definition, Requirements Specification, Static and Dynamic Specifications, Requirements Review, Feasibility Analysis
+* **6.4 Software Design:** Design for Reuse and with Reuse, Design for Change, Design Notations, Design Evaluation and Validation
+* **6.5 Implementation:** Programming Standards and Procedures, Modularity, Data Abstraction, Static Analysis, Unit Testing, Integration Testing, Regression Testing, Tools for Testing, Fault Tolerance
+* **6.6 Maintenance:** The Maintenance Problem, The Nature of Maintenance, Planning for Maintenance
+* **6.7 SE Issues:** Formal Methods, Tools and Environments for Software Engineering, Role of Programming Paradigm, Process Maturity and Improvement, ISO Standards, SEI CMM, CASE Tools
+
+***
+
+## Section C
+
+***
+
+### 7. Multimedia System
+
+* **7.1 Introduction:** Global Structure of Multimedia; Medium; Multimedia System and Properties
+* **7.2 Sound / Audio System:** Concept of Sound System; Music and Speech; Speech Generation, Speech Analysis, Speech Transmission
+* **7.3 Images and Graphics:** Digital Image Representation; Image and Graphics Format; Image Synthesis, Analysis, and Transmission
+* **7.4 Video and Animation:** Video Signal Representation, Computer Video Format; Computer-Based Animation
+* **7.5 Data Compression:** Storage Space; Coding Requirements; Source, Entropy, and Hybrid Coding; Lossy Sequential DCT-Based Mode; Expanded Lossy DCT-Based Mode; JPEG and MPEG
+
+***
+
+### 8. Data Structure and Algorithms
+
+* **8.1 General Concepts:** Abstract Data Type, Time and Space Analysis of Algorithms, Big Oh and Theta Notations, Average, Best, and Worst Case Analysis
+* **8.2 Linear Data Structures**
+* **8.3 Trees:** General and Binary Trees, Representations and Traversals, Binary Search Trees, Balancing Trees, AVL Trees, 2-3 Trees, Red-Black Trees, Self-Adjusting Trees, Splay Trees
+* **8.4 Algorithm Design Techniques:** Greedy Methods, Priority Queue Search, Exhaustive Search, Divide and Conquer, Dynamic Programming, Recursion
+* **8.5 Hashing**
+* **8.6 Graphs and Digraphs**
+* **8.7 Sorting**
+
+***
+
+### 9. MIS and Web Engineering
+
+* **9.1 Information Systems and Decision Making; Knowledge Management**
+* **9.2 Strategic Use of Information Technology; Work Process Redesign (Reengineering) with Information Technology; Enterprise Resources Planning Systems**
+* **9.3 Information Systems Security, Information Privacy, and Global Information Technology Issues**
+* **9.4 Web Technology:** Internet, Intranet, WWW, Static and Dynamic Web Page; Web Clients; Web Servers; Client-Server Architecture: Single Tier, Two-Tier, Multi-Tier; HTTP: HTTP Request and Response; URL, Client-Side Scripting, Server-Side Scripting, Web 2.0
+* **9.5 Hyper Text Markup Language:** Introduction to HTML; Elements of HTML Document; HTML Elements and HTML Attributes, Headings, Paragraph, Division, Formatting; Image Element; Anchors; Lists; Tables; Frames; Forms
+* **9.6 Client-Side Scripting with JavaScript**
+* **9.7 Basics of AJAX; Introduction to XML and its Application**
+
+***
+
+# Section D: Theory of Computation, Artificial Intelligence, and Advanced Topics in IT (20 Marks)
+
+***
+
+## 10. Theory of Computation
+
+* **10.1 DFA and NDFA, Regular Expressions, Regular Grammars**
+* **10.2 CFGs, Parsing and Ambiguity, Pushdown Automata, NPDAs & CFGs**
+* **10.3 Turing Machines**
+* **10.4 Recursively Enumerable Languages, Unrestricted Grammars**
+* **10.5 The Chomsky Hierarchy, Undecidable Problems, Church's Thesis**
+* **10.6 Complexity Theory, P and NP**
+
+***
+
+## 11. Artificial Intelligence
+
+* **11.1 Search:**
+  * **Uninformed Search Techniques:** Depth First Search, Breadth First Search, Depth Limit Search, and Search Strategy Comparison
+  * **Informed Search Techniques:** Hill Climbing, Best First Search, Greedy Search
+* **11.2 Learning:**
+  * Supervised Learning
+  * Unsupervised Learning
+  * Semi-Supervised Learning
+  * Reinforcement Learning
+  * Neural Networks
+  * Support Vector Machine (SVM)
+  * Self Organizing Map (SOM)
+  * Genetic Algorithms
+  * Clustering
+  * Decision Trees
+* **11.3 Automated Reasoning:** FOPL; Knowledge Representation Languages; Basic Concepts of Natural Language Processing (NLP)
+* **11.4 Game Playing**
+
+***
+
+## 12. Advanced Topics in IT
+
+* **12.1 Parallel and Distributed Computing**
+* **12.2 High-Speed Networks**
+* **12.3 Software Architecture**
+* **12.4 Cryptography and Network Security**
+* **12.5 E-Commerce**
+* **12.6 Software Project Management**
+* **12.7 Cloud Computing**
+* **12.8 Big Data Analytics**
+* **12.9 Internet of Things (IoT)**
+* **12.10 Machine Learning**
+
+***
+
+
