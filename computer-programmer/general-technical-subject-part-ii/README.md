@@ -2,6 +2,8 @@
 
 ***
 
+## Section A
+
 ### 1. Digital Design and Computer Architecture
 
 #### 1.1 Digital Design
@@ -49,6 +51,8 @@
 
 ***
 
+## Section B 
+
 ### 4. Structured and Object-Oriented Programming
 
 * **4.1 Concept of Procedural Programming, Structural Programming, Object-Oriented Programming**
@@ -88,6 +92,8 @@
 
 ***
 
+## Section C
+
 ### 7. Multimedia System
 
 * **7.1 Introduction:** Global Structure of Multimedia; Medium; Multimedia System and Properties
@@ -121,6 +127,8 @@
 * **9.7 Basics of AJAX; Introduction to XML and its Application**
 
 ***
+
+## Section D
 
 ### 10. Theory of Computation
 
