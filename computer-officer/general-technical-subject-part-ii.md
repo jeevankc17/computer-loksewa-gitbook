@@ -100,6 +100,10 @@
 - **10.5 Distributed Systems:** Distributed Message Passing, RPC, Client/Server Computing, Clusters
 - **10.6 Security:** Authentication and Access Authorization, System Flaws and Attacks, Trusted System
 
+---
+
+## Section C - 20%
+
 ### 11. Artificial Intelligence
 - **11.1 Search**
 - **11.2 Natural Language Processing**
